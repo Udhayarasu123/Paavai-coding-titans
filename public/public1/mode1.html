@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mode Selection</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background: linear-gradient(45deg, #3498db, #2ecc71);
+    }
+
+    .button-container {
+      text-align: center;
+    }
+
+    .button {
+      padding: 15px 30px;
+      margin: 10px;
+      background-color: #6faf4c;
+      color: white;
+      font-size: 20px;
+      font-weight: bold;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .button:hover {
+      background-color: #4c8231; /* Darker green on hover */
+    }
+  </style>
+</head>
+<body>
+  <div class="button-container">
+    <button class="button" onclick="goToAutomaticMode()">Automatic Mode</button>
+    <button class="button" onclick="goToManualMode()">Manual Mode</button>
+  </div>
+
+  <script>
+    function goToAutomaticMode() {
+      window.location.href = "automatic.html";
+    }
+
+    function goToManualMode() {
+      window.location.href = "manual.html";
+    }
+  </script>
+</body>
+</html>

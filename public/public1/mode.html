@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+  <title>Mode Selection</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      
+      background-image: url("b1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #f0f0f0; 
+    }
+
+    .button-container {
+      text-align: center;
+    }
+
+    .button {
+      padding: 15px 30px;
+      margin: 10px;
+      background-color: #4c81af;
+      color: white;
+      font-size: 20px;
+      font-weight: bold;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .button:hover {
+      background-color: #4c8231; /* Darker green on hover */
+    }
+    .button1 {
+      padding: 15px 30px;
+      margin: 10px;
+      background-color: #4c81af;
+      color: white;
+      font-size: 20px;
+      font-weight: bold;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .button1:hover {
+      background-color: #4c8231; /* Darker green on hover */
+    }
+    .button2 {
+      padding: 15px 30px;
+      margin: 10px;
+      background-color: #4c81af;
+      color: white;
+      font-size: 20px;
+      font-weight: bold;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .button2:hover {
+      background-color: #4c8231; /* Darker green on hover */
+    }
+  </style>
+</head>
+<body>
+  <div class="button-container">
+    <button class="button" id="button" onclick="goToAutomaticMode()">Automatic Mode</button>
+    
+    
+  
+      <button class="button1" ID="1">Start Irrigation</button>
+      <button class="button2" ID="2">Stop Irrigation</button>
+      
+    
+  </div>
+
+  <script>
+    function goToAutomaticMode() {
+      window.location.href = "automatic.html";
+    }
+</script>
+  </script>
+  
+</body>
+<script src="https://cdn.socket.io/4.0.1/socket.io.min.js"></script>
+<script src="script.js"></script>
+
+ 
+</html>

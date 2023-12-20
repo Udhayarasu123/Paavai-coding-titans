@@ -1,0 +1,86 @@
+/* CSS (style.css) */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: wheat;
+  background-image: url("b1.jpg");
+ background-color: #cccccc;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+
+.crop-button1 {
+  padding: 0px;
+  margin: 0px;
+  background-color: #e8f4e9c6;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+}
+.crop-button2 {
+  padding: 20px;
+  margin: 10px;
+  background-color: hsl(125, 17%, 87%);
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+}
+.crop-button3 {
+  padding: 20px;
+  margin: 10px;
+  background-color: #4caf50;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+}
+.crop-button1 {
+  padding: 20px;
+  margin: 10px;
+  background-color: #4caf50;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+}
+.crop-button2 {
+  padding: 20px;
+  margin: 10px;
+  background-color: #4caf50;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+}
+.crop-button3 {
+  padding: 20px;
+  margin: 10px;
+  background-color: #4caf50;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+}
+.crop-button4 {
+  padding: 20px;
+  margin: 10px;
+  background-color: #4caf50;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+}
+.crop-button5 {
+  padding: 20px;
+  margin: 10px;
+  background-color: #4caf50;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+}
+.crop-button6 {
+  padding: 20px;
+  margin: 10px;
+  background-color: #af7d4c;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+}
